@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+    <title>화성시 일자리통합지원 플랫폼</title>   
+    <link rel="stylesheet" type="text/css" href="../css/default.css">
+    <link rel="stylesheet" type="text/css" href="../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../css/layout_media.css">
+    <link rel="stylesheet" type="text/css" href="../css/sub.css">
+    <link rel="stylesheet" type="text/css" href="../css/sub_media.css">
+    <link rel="stylesheet" type="text/css" href="../css/board.css">
+    <link rel="stylesheet" type="text/css" href="../css/board_media.css">
+    <script src="../js/lib/jquery-1.12.4.min.js"></script>
+    <script src="../js/lib/jquery.bxslider.min.js"></script>
+    <script src="../js/layout.js"></script>
+    <script src="../js/sub.js"></script>
+</head>
+<body>
+
+    <div id="skipNav"> 
+        <p><a href="#container">본문바로가기</a></p>
+        <p><a href="#gnb">주메뉴바로가기</a></p>
+    </div>
+
+    <div class="mask"></div>
+
+    <div id="header">
+        <div class="header_inner">
+
+            <div class="logo">
+                <a href="#" title="메인으로">
+                    <img src="../img/layout/logo.png" alt="화성시 일자리통합지원 플랫폼" class="tabletHide">
+                    <img src="../img/layout/m_logo.png" alt="화성시 일자리통합지원 플랫폼" class="tabletShow">
+                </a>
+            </div><!-- logo end -->
+
+            <div class="m_gnbBtn">
+                <a href="#" class="m_gnbOpen"><img src="../img/layout/m_gnbOpen.png" alt="메뉴열기"></a>
+                <a href="#" class="m_gnbClose"><img src="../img/layout/m_gnbClose.png" alt="메뉴닫기"></a>
+            </div><!-- m_gnbBtn end -->
+
+            <div id="gnb">
+                <ul class="gnb_dep">
+                    <li><a href="#">소개</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">유관기관</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">일자리사업</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">화성시 일자리소식</a></li>
+                            <li><a href="#">기관별일자리사업</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">취업훈련프로그램</a></li>
+                                    <li><a href="#">사업 및 행사 활동</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">채용정보</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">공공일자리</a></li>
+                            <li><a href="#">민간일자리</a></li>
+                            <li><a href="#">탐나는 기업</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">일자리상담</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">일자리상담</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">구인상담 안내</a></li>
+                                    <li><a href="#">구직상담 안내</a></li>
+                                    <li><a href="#">읍면동 행정복지센터</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">정보마당</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">공지사항</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">일자리관련 공지사항</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">관내기업</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">관내기업 뉴스</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul><!-- gnb_dep end -->
+            </div><!-- gnb end -->
+        </div><!-- header_inner end -->
+    </div><!-- header end -->
+
+    <div id="container">
+        <div class="sub_top_visual">
+            <div class="sub_top_visual_bg"><img src="../img/sub/sub_top_visual_m.jpg" alt="" class="mobileShow"></div>
+            <div class="sub_top_visual_inner">
+                <div class="sub_top_visual_text"><p>소개</p></div>
+            </div>
+        </div><!-- sub_top_visual end -->
+        <div class="content_wrap">
+            <div class="sidebar">
+                <h5 class="sidebar_title">소개</h5>
+                <div id="snb">
+                    <ul>
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">유관기관</a></li>
+                        <li class="on"><a href="#">찾아오시는길</a></li>
+                    </ul>
+                </div><!-- snb end -->
+            </div><!-- sidebar end -->
+            <div class="sub_content">
+                <div class="sub_content_title">
+                    <ol class="page_navigation">
+                        <li class="home"><a href="#">홈</a></li>
+                        <li>소개</li>
+                        <li>찾아오시는길</li>
+                    </ol>
+                    <h3>찾아오시는길</h3>
+                </div><!-- sub_content_title end -->
+                <div class="content_box">
+                    <!-- content_box start -->
+                    <div class="hwaseong_work_map">
+                        <p class="blind">화성시 일자리통합지원 플랫폼 지도 API (화성시 향남읍 향남로 470 화성종합경기타운 내)</p>
+                        <div id="map" style="height: 400px;">
+                            <p style="background-color: rgb(245, 245, 245);background-image: url(../img/sub/map_ex.jpg);background-size: cover;background-position: center;text-align: center;line-height: 400px;font-size: 30px;">지도 API 영역</p>
+                        </div>
+                    </div><!-- hwaseong_work_map end -->
+                    <!-- content_box end -->
+                </div>
+            </div><!-- sub_content end -->
+        </div><!-- content_wrap end -->  
+    </div><!-- container end -->
+
+    <div id="footer">
+        <ul class="footer_inner">    
+            <li class="footer_logo">
+                <img src="../img/layout/footer_logo.png" alt="화성시 일자리통합지원 플랫폼">
+            </li>
+            <li class="footer_content">
+                <ul class="footer_menu">
+                    <li><a href="#" class="fb"><span class="emp7">저작권정책</span></a></li>
+                    <li><a href="#"><span>시청오시는길</span></a></li>
+                    <li><a href="#"><span>직원전화번호부</span></a></li>
+                    <li><a href="#"><span>뷰어프로그램 다운로드</span></a></li>
+                    <li><a href="#"><span>원격지원 서비스</span></a></li>
+                </ul><!-- footer_menu end -->
+                <div class="addr">
+                    <p>(우)18274 경기도 화성시 남양읍 시청로 159</p>
+                    <p class="copyright">Copyright (c) 2019 by hwaseong city all rights reserved.</p>
+                </div><!-- addr end -->
+            </li><!-- footer_content end -->
+        </ul><!-- footer_inner end -->
+    </div><!-- footer end -->
+
+</body>
+</html>

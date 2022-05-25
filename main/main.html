@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+    <title>화성시 일자리통합지원 플랫폼</title>   
+    <link rel="stylesheet" type="text/css" href="../css/default.css">
+    <link rel="stylesheet" type="text/css" href="../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../css/layout_media.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main_media.css">
+    <script src="../js/lib/jquery-1.12.4.min.js"></script>
+    <script src="../js/lib/jquery.bxslider.min.js"></script>
+    <script src="../js/layout.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body>
+
+    <div id="skipNav"> 
+        <p><a href="#container">본문바로가기</a></p>
+        <p><a href="#gnb">주메뉴바로가기</a></p>
+    </div>
+
+    <div class="mask"></div>
+
+    <div id="header">
+        <div class="header_inner">
+
+            <div class="logo">
+                <a href="#" title="메인으로">
+                    <img src="../img/layout/logo.png" alt="화성시 일자리통합지원 플랫폼" class="tabletHide">
+                    <img src="../img/layout/m_logo.png" alt="화성시 일자리통합지원 플랫폼" class="tabletShow">
+                </a>
+            </div><!-- logo end -->
+
+            <div class="m_gnbBtn">
+                <a href="#" class="m_gnbOpen"><img src="../img/layout/m_gnbOpen.png" alt="메뉴열기"></a>
+                <a href="#" class="m_gnbClose"><img src="../img/layout/m_gnbClose.png" alt="메뉴닫기"></a>
+            </div><!-- m_gnbBtn end -->
+
+            <div id="gnb">
+                <ul class="gnb_dep">
+                    <li><a href="#">소개</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">유관기관</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">일자리사업</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">화성시 일자리소식</a></li>
+                            <li><a href="#">기관별일자리사업</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">취업훈련프로그램</a></li>
+                                    <li><a href="#">사업 및 행사 활동</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">채용정보</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">공공일자리</a></li>
+                            <li><a href="#">민간일자리</a></li>
+                            <li><a href="#">탐나는 기업</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">일자리상담</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">일자리상담</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">구인상담 안내</a></li>
+                                    <li><a href="#">구직상담 안내</a></li>
+                                    <li><a href="#">읍면동 행정복지센터</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">정보마당</a>
+                        <ul class="gnb_2dep">
+                            <li><a href="#">공지사항</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">일자리관련 공지사항</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">관내기업</a>
+                                <ul class="gnb_3dep">
+                                    <li><a href="#">관내기업 뉴스</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul><!-- gnb_dep end -->
+            </div><!-- gnb end -->
+        </div><!-- header_inner end -->
+    </div><!-- header end -->
+
+    <div id="container">
+        <div class="visual_section">
+            <div class="visual_section_inner">
+
+                <div class="visual_slide_group">
+                    <div id="visual_slide_thumb">
+                        <div><a href="#"><img src="../img/main/visual_thumb_img.jpg" alt="" /></a></div>
+                        <div><a href="#"><img src="../img/main/visual_thumb_img.jpg" alt="" /></a></div>
+                        <div><a href="#"><img src="../img/main/visual_thumb_img.jpg" alt="" /></a></div>
+                    </div><!-- visual_slide_thumb end -->
+                    <ul class="visual_slide_control">
+                        <li id="slide_counter01" class="slide_counter"></li>
+                        <li><a href="#visual_slide_thumb" id="slider_prev"><img src="../img/main/visual_slide_prev.png" alt="이전" class="mobileHide"><img src="../img/main/visual_slide_prev_m.png" alt="이전" class="mobileShow"></a></li>
+                        <li>
+                            <a href="#visual_slide_thumb" id="slider_play"><img src="../img/main/visual_slide_play.png" alt="재생" class="mobileHide"><img src="../img/main/visual_slide_play_m.png" alt="재생" class="mobileShow"></a>
+                            <a href="#visual_slide_thumb" id="slider_stop"><img src="../img/main/visual_slide_stop.png" alt="일시정지" class="mobileHide"><img src="../img/main/visual_slide_stop_m.png" alt="일시정지" class="mobileShow"></a>
+                        </li>
+                        <li><a href="#visual_slide_thumb" id="slider_next"><img src="../img/main/visual_slide_next.png" alt="다음" class="mobileHide"><img src="../img/main/visual_slide_next_m.png" alt="다음" class="mobileShow"></a></li>
+                        <li class="visual_slide_total">0</li>
+                    </ul><!-- visual_slide_control end -->
+                </div><!-- visual_slide_group end -->
+
+                <div class="work_tab_group">
+                    <dl class="work_tab_list">
+                        <!-- 20210913 start -->
+                        <dt class="on"><a href="#">민간일자리</a></dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">농식품유통과</p>
+                                        <p class="title">화성쌀 향토산업육성 사업단 사무원 채용 공고 화성쌀 향토산업육성사업단 사무원 채용 공고</p>
+                                        <p class="date">2021-05-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">징수과</p>
+                                        <p class="title">2021년 체납관리단(관리요원) 최종합격자 안내</p>
+                                        <p class="date">2021-05-25</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">농식품유통과</p>
+                                        <p class="title">아동친화도시 추진 지방 정부협의회 사무국 운영</p>
+                                        <p class="date">2021-05-21</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">여성가족과</p>
+                                        <p class="title">화성시 아이돌보미 모집 공고(38기)</p>
+                                        <p class="date">2021-05-20</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">농식품유통과</p>
+                                        <p class="title">아동친화도시 추진 지방 정부협의회 사무국 운영</p>
+                                        <p class="date">2021-05-21</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">여성가족과</p>
+                                        <p class="title">화성시 아이돌보미 모집 공고(38기)</p>
+                                        <p class="date">2021-05-20</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="work_tab_more" title="민간일자리 더보기">더보기</a>
+                        </dd>
+                        <dt><a href="#">공공일자리</a></dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">농식품유통과</p>
+                                        <p class="title">화성쌀 향토산업육성 사업단 사무원 채용 공고</p>
+                                        <p class="date">2021-05-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">징수과</p>
+                                        <p class="title">2021년 체납관리단(관리요원) 최종합격자 안내</p>
+                                        <p class="date">2021-05-25</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">농식품유통과</p>
+                                        <p class="title">아동친화도시 추진 지방 정부협의회 사무국 운영</p>
+                                        <p class="date">2021-05-21</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">여성가족과</p>
+                                        <p class="title">화성시 아이돌보미 모집 공고(38기)</p>
+                                        <p class="date">2021-05-20</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">농식품유통과</p>
+                                        <p class="title">아동친화도시 추진 지방 정부협의회 사무국 운영</p>
+                                        <p class="date">2021-05-21</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="label">여성가족과</p>
+                                        <p class="title">화성시 아이돌보미 모집 공고(38기)</p>
+                                        <p class="date">2021-05-20</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="work_tab_more" title="공공일자리 더보기">더보기</a>
+                        </dd>
+                        <!-- 20210913 end -->
+                    </dl><!-- work_tab_list end -->
+                </div><!-- work_tab_group end -->
+            </div><!-- visual_section_inner end -->
+        </div><!-- visual_section end -->
+
+        <div class="second_section">
+            <div class="second_section_inner">
+                <div class="news_tab_group">
+                    <dl class="news_tab_list">
+                        <dt class="on"><a href="#">공지사항</a></dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>27</em>2021.05</p>
+                                        <p class="title">화성시 2021 중장년일자리박람회 참여기업 모집</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>21</em>2021.05</p>
+                                        <p class="title">버스운수종사자양성, 복합건물관리사, 웰다잉</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>16</em>2021.05</p>
+                                        <p class="title">4월 화성시 통합일자리박람회 참여안내</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>13</em>2021.05</p>
+                                        <p class="title">일자리테마특강_일자리편 ‘버스운전자’ 온라인 모집안내</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="news_tab_more"><a href="#">더보기</a></p>
+                        </dd>
+                        <dt><a href="#">관내기업</a></dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>27</em>2021.05</p>
+                                        <p class="title">화성시 2021 중장년일자리박람회 참여기업 모집</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>21</em>2021.05</p>
+                                        <p class="title">버스운수종사자양성, 복합건물관리사, 웰다잉, 버스운수종사자양성, 복합건물관리사, 웰다잉</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>16</em>2021.05</p>
+                                        <p class="title">4월 화성시 통합일자리박람회 참여안내</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="date"><em>13</em>2021.05</p>
+                                        <p class="title">일자리테마특강_일자리편 ‘버스운전자’ 온라인 모집안내</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="news_tab_more"><a href="#">더보기</a></p>
+                        </dd>
+                    </dl><!-- news_tab_list end -->
+                </div><!-- news_tab_group end -->
+                <div class="work_agency_group">
+                    <strong class="title">일자리유관기관</strong>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency01.png" alt="일자리 센터 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency01_m.png" alt="일자리 센터 아이콘" class="mobileShow">
+                                <p>일자리<br>센터</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency02.png" alt="청년 지원센터 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency02_m.png" alt="청년 지원센터 아이콘" class="mobileShow">
+                                <p>청년<br>지원센터</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency03.png" alt="여성새로 일하기센터 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency03_m.png" alt="여성새로 일하기센터 아이콘" class="mobileShow">
+                                <p>여성새로<br>일하기센터</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency04.png" alt="시니어클럽 복지관 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency04_m.png" alt="시니어클럽 복지관 아이콘" class="mobileShow">
+                                <p>시니어클럽/<br>복지관</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency05.png" alt="지역자활센터 아르딤복지관 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency05_m.png" alt="지역자활센터 아르딤복지관 아이콘" class="mobileShow">
+                                <p>지역자활센터/<br>아르딤복지관</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency06.png" alt="경기도 기술학교 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency06_m.png" alt="경기도 기술학교 아이콘" class="mobileShow">
+                                <p>경기도<br>기술학교</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency07.png" alt="한국폴리텍대학 화성캠퍼스 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency07_m.png" alt="한국폴리텍대학 화성캠퍼스 아이콘" class="mobileShow">
+                                <p>한국폴리텍대학<br>화성캠퍼스</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../img/main/work_agency08.png" alt="기타기관 시설 아이콘" class="mobileHide">
+                                <img src="../img/main/work_agency08_m.png" alt="기타기관 시설 아이콘" class="mobileShow">
+                                <p>기타기관/<br>시설</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- work_agency_group end -->
+            </div><!-- second_section_inner end -->
+            <div class="work_slide_group">
+                <div class="work_slide_title">
+                    <strong>기관별일자리사업</strong>
+                    <a href="#" class="work_slide_more">더보기</a>
+                </div><!-- work_slide_title end -->
+                <div class="work_slide_inner">
+                    <div class="work_slide_area">
+                        <div id="work_slide">
+                            <!-- typeA : 교육 / typeB : 행사 -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img01.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">컴활2급 필기+실기 오전 평일반</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img02.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">2021년 1분기 취업박람회</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img03.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">감성터치! 서비스 커뮤니케이션 스킬업 2탄</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeB">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img04.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">행사</p>
+                                        <p class="title">화성시 공사용 임시시설물 그래픽 디자인 공모전</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img01.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">컴활2급 필기+실기 오전 평일반</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img02.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">2021년 1분기 취업박람회</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img03.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">감성터치! 서비스 커뮤니케이션 스킬업 2탄</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeB">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img04.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">행사</p>
+                                        <p class="title">화성시 공사용 임시시설물 그래픽 디자인 공모전</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img01.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">컴활2급 필기+실기 오전 평일반</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img02.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">2021년 1분기 취업박람회</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeA">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img03.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">교육</p>
+                                        <p class="title">감성터치! 서비스 커뮤니케이션 스킬업 2탄</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                            <div class="work_slide_box typeB">
+                                <a href="#">
+                                    <div class="work_slide_thumb">
+                                        <img src="../img/main/work_slide_img04.jpg" alt="" />
+                                    </div>
+                                    <div class="work_slide_txt">
+                                        <p class="label">행사</p>
+                                        <p class="title">화성시 공사용 임시시설물 그래픽 디자인 공모전</p>
+                                        <p class="date"><span>접수기간</span> 2021.05.27 ~ 2021. 07.22</p>
+                                    </div>
+                                </a>
+                            </div><!-- work_slide_box end -->
+                        </div><!-- work_slide end -->
+                    </div><!-- work_slide_area end -->
+                    <div class="work_slide_control">
+                        <ul class="work_slide_btn">
+                            <li><a href="#work_slide" id="slider_prev"><img src="../img/main/work_slide_prev.png" alt="이전"></a></li>
+                            <li><a href="#work_slide" id="slider_next"><img src="../img/main/work_slide_next.png" alt="다음"></a></li>
+                        </ul>
+                    </div><!-- work_slide_control end -->
+                </div><!-- work_slide_inner end -->
+            </div><!-- work_slide_group end -->
+        </div><!-- second_section end -->
+    </div><!-- container end -->
+
+    <div id="footer">
+        <ul class="footer_inner">    
+            <li class="footer_logo">
+                <img src="../img/layout/footer_logo.png" alt="화성시 일자리통합지원 플랫폼">
+            </li>
+            <li class="footer_content">
+                <ul class="footer_menu">
+                    <li><a href="#" class="fb"><span class="emp7">저작권정책</span></a></li>
+                    <li><a href="#"><span>시청오시는길</span></a></li>
+                    <li><a href="#"><span>직원전화번호부</span></a></li>
+                    <li><a href="#"><span>뷰어프로그램 다운로드</span></a></li>
+                    <li><a href="#"><span>원격지원 서비스</span></a></li>
+                </ul><!-- footer_menu end -->
+                <div class="addr">
+                    <p>(우)18274 경기도 화성시 남양읍 시청로 159</p>
+                    <p class="copyright">Copyright (c) 2019 by hwaseong city all rights reserved.</p>
+                </div><!-- addr end -->
+            </li><!-- footer_content end -->
+        </ul><!-- footer_inner end -->
+    </div><!-- footer end -->
+
+</body>
+</html>

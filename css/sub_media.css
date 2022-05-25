@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1099px){
+
+    .sub_top_visual{background-image: url(../img/sub/sub_top_visual_m.jpg);background-size: 100% auto;background-position: center;background-repeat: no-repeat;}
+    .sub_top_visual_inner{width: 100%;}
+    .sub_top_visual_inner:before{left: 5%;}
+    .sub_top_visual_inner:after{right: 5%;}
+    .sub_top_visual_text p{font-size: 30px;line-height: 40px;}
+
+    .content_wrap{width: 100%;padding: 60px 15px;box-sizing: border-box;}
+    .sidebar{display: none;}
+    .sub_content{float: none;width: 100%;}
+
+}
+
+@media screen and (max-width: 767px){
+    body{font-size: 13px;}
+
+    .sub_top_visual{height: auto;background-image: none;}
+    .sub_top_visual_bg{display: block;position: inherit;top: auto;background-image: none;-webkit-animation: none;animation: none;}
+    .sub_top_visual_bg img{width: 100%;height: auto;}
+    .sub_top_visual_inner{position: absolute;top: 50%;margin-top: -20px;}
+    .sub_top_visual_inner:before, .sub_top_visual_inner:after{display: none;}
+    .sub_top_visual_text{height: auto;}
+    .content_wrap{padding: 30px 15px 60px;}
+    .sub_content_title{margin-bottom: 20px;}
+    .sub_content_title > h3{font-size: 20px;}
+    .page_navigation{float: left;width: 100%;margin: 10px 0;font-size: 11px;}
+    .page_navigation li.home a{vertical-align: middle;}
+
+    /* 인사말 */
+    .greeting_box > p{height: auto;padding: 20px 20px 135px 20px;background-position: center bottom;text-align: center;}
+    .greeting > p{padding: 15px 10px;font-size: 14px;line-height: 22px;}
+
+    /* 유관기관 */
+    .work_agency_list > li{width: 100%;margin-right: 0;margin-bottom: 15px;}
+    .work_agency_list > li > a{height: 100px;padding-right: 15px;}
+    .work_agency_list > li > a > .icon{width: 120px;}
+    .work_agency_list > li > a > p > .title{font-size: 14px;}
+    .work_agency_list > li > a > p > .url{font-size: 13px;} 
+
+}
